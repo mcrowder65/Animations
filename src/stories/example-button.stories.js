@@ -1,12 +1,12 @@
 import React from "react"
-import ExampleButton from "../components/example-button"
+import Item from "../components/example-button"
 
 export default {
   title: "Example/ExampleButton",
-  component: ExampleButton,
+  component: Item,
 }
 
-const Template = args => <ExampleButton {...args} />
+const Template = args => <Item {...args} />
 
 export const Primary = Template.bind({})
 Primary.args = {
